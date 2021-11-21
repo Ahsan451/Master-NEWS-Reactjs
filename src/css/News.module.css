@@ -1,0 +1,11 @@
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.capitalize{
+    text-transform: uppercase;
+}
+/* .back{
+    background-color: red;
+} */

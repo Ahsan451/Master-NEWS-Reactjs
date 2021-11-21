@@ -32,7 +32,47 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding: 8px 15px;
+  border-radius: 2px;
+  font-weight:300px;
+  margin: 0px 2px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;
+  font-weight: bolder;
+  /* background-color: white !important; */
+  color: white !important;
+  
+
+}
+
+.navbar-brand {
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: white !important;
+  font-size: larger;
+  font-weight: bolder;
+  /* border: 2px solid white; */
+  background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity))  
+  !important;
+}
+
+.navbar-brand:hover {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity))  
+   !important;
+  /* background-color: white !important;
+  color: black !important; */
+
 }
